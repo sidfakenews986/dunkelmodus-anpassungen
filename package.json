@@ -1,0 +1,14 @@
+{
+    "name": "dunkelmodus-anpassungen",
+    "version": "1.0.0",
+    "description": "Dunkelmodus Anpassungen Tool",
+    "main": "index.js",
+    "scripts": {
+        "start": "lite index.html"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    },
+    "license": "MIT"
+}
