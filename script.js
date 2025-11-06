@@ -4,9 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.backgroundColor = color;
     }
 
+    // Default color constant
+    const DEFAULT_COLOR = '#d3d3d3';
+
     // Event listener for input to change styles in real-time
     const colorInput = document.getElementById('colorInput');
-    colorInput.value = '#d3d3d3'; // Set default color to light gray
+    colorInput.value = DEFAULT_COLOR; // Set default color to light gray
     colorInput.addEventListener('input', function() {
         changeStyles(colorInput.value);
     });
