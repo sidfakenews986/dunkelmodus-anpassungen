@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Logik zum Ändern von Farben und Stilen
-    // Echtzeitvorschau
+    // Logic for changing colors and styles
+    // Real-time preview
 });
