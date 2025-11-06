@@ -3,5 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function changeStyles(color) {
         document.body.style.backgroundColor = color;
     }
-    // Real-time preview
+
+    // Event listener for input to change styles in real-time
+    const colorInput = document.getElementById('colorInput');
+    colorInput.addEventListener('input', function() {
+        changeStyles(colorInput.value);
+    });
 });
