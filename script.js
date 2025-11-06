@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Event listener for input to change styles in real-time
     const colorInput = document.getElementById('colorInput');
+    colorInput.value = '#ffffff'; // Set default color to white
     colorInput.addEventListener('input', function() {
         changeStyles(colorInput.value);
     });
